@@ -16,7 +16,7 @@ class App extends Component {
       <div className="App">
         <div className="content">
           <div className="title"> RICK AND MORTY</div>
-          <div className="body">
+          <div className="main content">
             {this.state.data.results.map(item => {
               return <Character key={item.id} characterInfo={item} />;
             })}
