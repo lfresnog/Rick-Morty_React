@@ -1,28 +1,21 @@
-.App {
-  text-align: center;
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.searchInput{
+    border: 0px;
+    border-bottom: 3px solid #282828;
+    width: 100%;
+    font-size: x-large;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.searchInput:focus {
+    outline: none;
 }
 
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.rickIcon{
+    width: 30%;
+    object-fit: contain;
 }
